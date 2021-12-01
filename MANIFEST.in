@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include isanode *.css
+recursive-include isanode *.csv
+recursive-include isanode *.html
+recursive-include isanode *.ico
+recursive-include isanode *.js
+recursive-include isanode *.json
+recursive-include isanode *.md
+recursive-include isanode *.png
+recursive-include isanode *.py
+recursive-include isanode *.svg
+recursive-include isanode *.txt
+recursive-exclude isanode *.pyc
