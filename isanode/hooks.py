@@ -6,12 +6,18 @@ app_publisher = "Shahzad Naser"
 app_description = "isanode"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "shahzadnaser1122@gmail.com"
+app_email = "support@isanode.co.za"
 app_license = "MIT"
 
 # Includes in <head>
 # ------------------
 
+app_logo_url = '/assets/isanode/images/055.png'
+
+website_context = {
+	"favicon": 	"/assets/isanode/images/favicon.jpg",
+	"splash_image": "/assets/isanode/images/055.png"
+}
 # include js, css files in header of desk.html
 # app_include_css = "/assets/isanode/css/isanode.css"
 # app_include_js = "/assets/isanode/js/isanode.js"
@@ -57,7 +63,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "isanode.install.before_install"
-# after_install = "isanode.install.after_install"
+after_install = "isanode.utils.after_install"
 
 # Desk Notifications
 # ------------------
