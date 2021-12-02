@@ -20,11 +20,12 @@ website_context = {
 }
 # include js, css files in header of desk.html
 # app_include_css = "/assets/isanode/css/isanode.css"
-# app_include_js = "/assets/isanode/js/isanode.js"
+app_include_js = "/assets/isanode/js/web.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/isanode/css/isanode.css"
-# web_include_js = "/assets/isanode/js/isanode.js"
+web_include_js = "/assets/isanode/js/web.js"
+
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "isanode/public/scss/website"
