@@ -15,7 +15,7 @@ app_license = "MIT"
 app_logo_url = '/assets/isanode/images/055.png'
 
 website_context = {
-	"favicon": 	"/assets/isanode/images/favicon.jpg",
+	"favicon": 	"/assets/isanode/images/favicon.png",
 	"splash_image": "/assets/isanode/images/055.png"
 }
 # include js, css files in header of desk.html
