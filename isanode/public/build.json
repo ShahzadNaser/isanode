@@ -1,0 +1,7 @@
+{
+	"js/isanode.js":[
+		"templates/includes/footer/footer_powered.html",
+        "public/js/web.js",
+        "public/js/navbar.html"
+	]
+}
